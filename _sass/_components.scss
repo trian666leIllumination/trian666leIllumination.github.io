@@ -1,0 +1,32 @@
+.btn{
+	padding: 5px 10px !important;
+	border-radius: 0px !important;
+}
+
+.btn-all{
+	@extend .btn;
+	border: 1px solid #222 !important;
+	background-color: #fff !important; 
+	color: #222 !important;
+}
+
+.btn-mockup{
+	@extend .btn;
+	border: 1px solid #222 !important;
+	background-color: #fff !important; 
+	color: #222 !important;
+}
+
+.btn-website{
+	@extend .btn;
+	border: 1px solid #222 !important;
+	background-color: #fff !important; 
+	color: #222 !important;
+}
+
+.btn-clothing{
+	@extend .btn;
+	border: 1px solid #222 !important;
+	background-color: #fff !important; 
+	color: #222 !important;
+}

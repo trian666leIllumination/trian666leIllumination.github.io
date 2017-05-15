@@ -1,0 +1,130 @@
+body{
+	font-family: $josefin-regular;
+	font-weight: bold;
+	padding-top: 70px;
+}
+
+#container {
+	width:100%;
+	.mix{
+		display: none;
+	}
+}
+/* Navbar */
+.navbar-default, .navbar, .navbar-fixed-top {
+    background-color: transparent !important;
+    border-color: transparent !important;
+    border-radius: 0px !important;
+    .dark{
+    	padding: 5px 15px 0px 15px;
+    	background-color: #333;
+    	color: #fff;
+    	text-align: center;
+    }
+    .border{
+    	padding: 5px 10px 0px 10px;
+    	background-color: #fff;
+    	border:1px solid #333;
+    	color: #333;
+    	text-align: center;
+    }
+}
+
+/* Sections */
+.showcase{
+	width: 100%;
+	height: 100vh;
+	padding: 30px 50px;
+	.content{
+		display: inline-block;
+		vertical-align: middle;
+		padding: 10px 10px;
+		p{
+			line-height: 25px;
+			font-size: 17px;
+		}
+	}
+}
+
+/* Hero Section */
+.hero-section{
+	height: 60vh;
+	background: url('../images/LOGO666-BLACK.png') no-repeat center center;
+	background-size: 40%;
+	color: #fff;
+	padding: 10% 7%;
+}
+
+/* Features */
+.features{
+	text-align: center;
+	border-top: 2px solid #222;
+	.feat{
+		padding: 2% 7%;
+	}
+}
+
+/* Team */
+.team{
+	@extend .showcase;
+	.team-image{
+		border-radius: 50%;
+		border: 5px solid #333;
+		padding: 5px 10px;
+	}
+	.team-image:hover{
+		-webkit-transition: background-color 0.5s ease-out;
+		-moz-transition: background-color 0.5s ease-out;
+		-o-transition: background-color 0.5s ease-out;
+		transition: background-color 0.5s ease-out;
+		background-color: #333;
+		cursor: pointer;
+	}
+	.team-name{
+		padding: 5px 10px;
+		background-color: #333;
+		color: #fff;
+	}
+	.team-role{
+		font-style: italic;
+		font-size: 16px;
+	}
+}
+
+/* Portfolio */
+.portfolio{
+	@extend .showcase;
+	margin-bottom: 45px;
+	.thumbnail {
+	    position:relative;
+	    overflow:hidden;
+	}
+	 
+	.caption {
+	    position:absolute;
+	    bottom:-100%;
+	    right:0;
+	    background:rgba(0, 0, 0, 0.75);
+	    width:100%;
+	    height:100%;
+	    padding:2%;
+	    text-align:center;
+	    color:#fff !important;
+	    z-index:2;
+	    -webkit-transition: all 0.5s ease-in-out;
+	    -moz-transition: all 0.5s ease-in-out;
+	    -o-transition: all 0.5s ease-in-out;
+	    -ms-transition: all 0.5s ease-in-out;
+	    transition: all 0.5s ease-in-out;
+	}
+	.thumbnail:hover .caption {
+	    bottom:-50%;
+	}
+}
+
+/* Footer */
+footer{
+	background-color: #222;
+	color: #fff;
+	padding: 40px 50px;
+}

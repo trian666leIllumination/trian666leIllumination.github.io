@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+{% include head.html %}
+
+<body>
+	{% include header.html %}
+
+	{% include hero-section.html %}
+
+	<main class="container">
+		<article class="container-fluid">
+			{{ content }}
+		</article>
+	</main>
+	
+	{% include footer.html %}
+</body>
+
+</html>

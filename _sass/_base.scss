@@ -1,0 +1,29 @@
+@font-face {
+	font-family:'Josefin Sans';
+    src:url("/fonts/JosefinSans-Light.ttf");
+}
+
+@font-face {
+	font-family:'Josefin Sans Light Italic';
+    src:url("/fonts/JosefinSans-LightItalic.ttf");
+}
+
+@font-face {
+	font-family:'Josefin Sans Regular';
+    src:url("/fonts/JosefinSans-Regular.ttf");
+}
+
+$josefin 			: 'Josefin Sans', sans-serif !default;
+$josefin-italic 	: 'Josefin Sans Light Italic', sans-serif !default;
+$josefin-regular 	: 'Josefin Sans Regular', sans-serif !default;
+
+/* path to glyphicons */
+$icon-font-path: "/bower_components/bootstrap-sass/assets/fonts/bootstrap/";
+
+*,
+*::before,
+*::after {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+} 

@@ -1,0 +1,11 @@
+---
+# Front matter comment to ensure Jekyll properly reads file.
+---
+
+/* any style customization must be before the bootstrap import */
+@import 
+	"base",
+	"layout",
+	"syntax-highlighting",
+	"components",
+	"../bower_components/bootstrap-sass/assets/stylesheets/bootstrap"
