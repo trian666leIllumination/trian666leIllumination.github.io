@@ -128,18 +128,6 @@
 <script src="https://cdn.rawgit.com/alertifyjs/alertify.js/v1.0.10/dist/js/alertify.js"></script>
 <script type="text/javascript">
 
-		
-		$('.scroll').on('click', function (e) {
-			e.preventDefault();
-
-			var linkHref = $(this).attr('href^=#');
-			
-			$('html, body').animate({
-				scrollTop: $(linkHref).offset().top
-			}, 1000);
-
-		});
-
 		$('#contact-form').submit(function(e) {
 			var name    = document.getElementById('inputName')
 			var email   = document.getElementById('inputEmail')
